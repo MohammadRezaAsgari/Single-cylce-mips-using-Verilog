@@ -1,0 +1,39 @@
+Running: E:\ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Roham/Desktop/proj07/single_cycle/test_bench_isim_beh.exe -prj C:/Users/Roham/Desktop/proj07/single_cycle/test_bench_beh.prj work.test_bench work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Roham/Desktop/proj07/single_cycle/Register_Bank.v" into library work
+Analyzing Verilog file "C:/Users/Roham/Desktop/proj07/single_cycle/Program_counter.v" into library work
+Analyzing Verilog file "C:/Users/Roham/Desktop/proj07/single_cycle/Mux7to1_1bit.v" into library work
+Analyzing Verilog file "C:/Users/Roham/Desktop/proj07/single_cycle/Mux2to1_8bit.v" into library work
+Analyzing Verilog file "C:/Users/Roham/Desktop/proj07/single_cycle/Mux2to1_3bit.v" into library work
+Analyzing Verilog file "C:/Users/Roham/Desktop/proj07/single_cycle/Instruction_Memory.v" into library work
+Analyzing Verilog file "C:/Users/Roham/Desktop/proj07/single_cycle/Data_Memory.v" into library work
+Analyzing Verilog file "C:/Users/Roham/Desktop/proj07/single_cycle/Control.v" into library work
+Analyzing Verilog file "C:/Users/Roham/Desktop/proj07/single_cycle/alu_8bit.v" into library work
+Analyzing Verilog file "C:/Users/Roham/Desktop/proj07/single_cycle/Add.v" into library work
+Analyzing Verilog file "C:/Users/Roham/Desktop/proj07/single_cycle/CPU.v" into library work
+Analyzing Verilog file "C:/Users/Roham/Desktop/proj07/single_cycle/test_bench.v" into library work
+Analyzing Verilog file "E:/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module Program_counter
+Compiling module Instruction_Memory
+Compiling module Control
+Compiling module Add
+Compiling module Mux2to1_8bit
+Compiling module Mux2to1_3bit
+Compiling module Register_Bank
+Compiling module alu_8bit
+Compiling module Mux7to1_1bit
+Compiling module Data_Mem
+Compiling module CPU
+Compiling module test_bench
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 13 Verilog Units
+Built simulation executable C:/Users/Roham/Desktop/proj07/single_cycle/test_bench_isim_beh.exe
+Fuse Memory Usage: 29344 KB
+Fuse CPU Usage: 546 ms
